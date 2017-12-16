@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <section class="greeting">
         <div class="container">
             <div class="greeting__nav">
-        <div class="greeting__logo">
+            <div class="greeting__logo">
             <img src="" alt="" class="greeting__image">
         </div>
         <div class="navigation">
@@ -78,7 +79,7 @@
                 </div>
             </div>
             <div class="portfolio__works">
-                <ul class="portfolio__????">
+                <ul class="portfolio__photo">
                     <li class="portfolio__image"><img src="" alt="" class="portfolio__picture"></li>
                     <li class="portfolio__image"><img src="" alt="" class="portfolio__picture"></li>
                     <li class="portfolio__image"><img src="" alt="" class="portfolio__picture"></li>
@@ -159,9 +160,14 @@
                 <p class="contact__title">Contact</p>
             </div>
             <div class="contact__row_1">
-                <form action="form">
-
-                </form>
+                <div class="contact__name">
+                <lable class="lable__text">full name</lable>
+                <input type="text" class="text__column">
+                </div>
+                <div class="contact__mail">
+                <lable class="lable__text">email</lable>
+                <input type="text" class="text__column">
+                </div>
             </div>
             <div class="contact__row_2">
                 <p class="contact__row_2_text">
@@ -177,9 +183,11 @@
                 </p>
             </div>
             <div class="contact__form">
-                <form action="" class="form">
-
-                </form>
+                <lable class="lable__column">massege</lable>
+                <input type="text" class="text__column">
+             </div>
+            <div class="contact__click">
+                <input type="submit" value = "message" class="contact__button">
             </div>
         </div>
     </section>
@@ -187,12 +195,13 @@
         <div class="container">
             <div class="footer__nav">
                 <ul class="footer__list">
-                    <li class="footer__item"><p class="footer__column"></p></li>
-                    <li class="footer__item"><p class="footer__column"></p></li>
-                    <li class="footer__item"><p class="footer__column"></p></li>
-                    <li class="footer__item"><p class="footer__column"></p></li>
+                    <li class="footer__item"><p class="footer__column">home</p></li>
+                    <li class="footer__item"><p class="footer__column">services</p></li>
+                    <li class="footer__item"><p class="footer__column">portfolio</p></li>
+                    <li class="footer__item"><p class="footer__column">contact</p></li>
                 </ul>
             </div>
+            <p class="footer__year">2013 ©</p>
         </div>
     </section>
 </body>

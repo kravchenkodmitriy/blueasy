@@ -1,0 +1,14 @@
+@import "greeting.css";
+@import "services.css";
+@import "portfolio.css";
+@import "section.css";
+@import "twitter.css";
+
+body {
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}

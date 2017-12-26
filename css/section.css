@@ -1,0 +1,16 @@
+.section {
+    background-color: #515f67;
+}
+.section__blockqute {
+    font-family: "Segoe UI Semilight";
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 82px;
+    margin: 0 auto;
+}
+.section__text {
+    font-family: "Segoe UI";
+    font-size: 14px;
+
+}

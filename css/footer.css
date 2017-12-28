@@ -1,0 +1,38 @@
+.footer {
+    background-image: url("../images/bg__footer.png");
+}
+.footer__nav {
+    display: inline-block;
+}
+.footer__list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 80px 0 80px 0 ;
+}
+.footer__item {
+    display: inline-block;
+    border-left: 2px solid #515f67;
+}
+.footer__column {
+    font-family: "Segoe UI Semibold";
+    font-size: 12px;
+    color: #515f67;
+    text-transform: uppercase;
+    padding: 0 19px 0 16px;
+    margin: 0;
+
+}
+.footer__item:first-child {
+    border-left: none;
+}
+.footer__date {
+    display: inline-block;
+    float: right;
+}
+.footer__year {
+    margin: 0 auto;
+    padding: 78px;
+    font-family: "Segoe UI Semibold";
+    font-size: 12px;
+    color: #515f67;
+}

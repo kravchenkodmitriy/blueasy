@@ -14,7 +14,7 @@
     border-left: 2px solid #515f67;
 }
 .footer__column {
-    font-family: "Segoe UI Semibold";
+    font-family: "Segoe UI Semibold", serif, "Segoe UI Symbol";
     font-size: 12px;
     color: #515f67;
     text-transform: uppercase;
@@ -32,7 +32,7 @@
 .footer__year {
     margin: 0 auto;
     padding: 78px;
-    font-family: "Segoe UI Semibold";
+    font-family: "Segoe UI Semibold", serif, "Segoe UI Symbol";
     font-size: 12px;
     color: #515f67;
 }
